@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import "mixins";
+@import "reset";
+
+// *--------- ZMIENNE ---------*
+$font: 'Nunito Sans',
+sans-serif;
+$shadow_in: 0px 0px 20px 1px rgba(0, 0, 0, 1) inset;
+$color_blue: rgba(0, 204, 255, 1);
+$color_gray: rgba(25, 25, 25, 1);
+
+// *--------- TYPOGRAFIA ---------*
+
+// *--------- STRUKTURA ---------*
+@font-face {
+	font-family: Satisfy;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../font/Satisfy-Regular.ttf);
+}
+
+body {
+	font-family: $font;
+}
+
+
+@import "all";
+@import "nav";
+@import "banner";
+@import "icons";
+@import "about_me";
+@import "skills";
+@import "portfolio";
+@import "contact";
+@import "footer";
+@import "animations";

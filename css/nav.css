@@ -1,0 +1,292 @@
+#menu {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  background: #00ccff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid #191919;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in; }
+  #menu:hover {
+    background: white; }
+  @media all and (min-width: 1500px) {
+    #menu {
+      right: 33%; } }
+  @media all and (min-width: 1200px) and (max-width: 1500px) {
+    #menu {
+      right: 28.5%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    #menu {
+      right: 24%; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    #menu {
+      right: 16%; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    #menu {
+      right: 10%; } }
+  @media all and (max-width: 575px) {
+    #menu {
+      right: 0%; } }
+  #menu .tool {
+    color: white;
+    position: relative;
+    transform: rotate(90deg);
+    top: 62px;
+    left: 0px; }
+    #menu .tool .one {
+      position: relative;
+      width: 4px;
+      height: 40px;
+      background: #191919;
+      margin-right: 5px;
+      left: 0px;
+      border-radius: 5px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+    #menu .tool .two {
+      width: 4px;
+      height: 40px;
+      background: #191919;
+      margin-right: 5px;
+      border-radius: 5px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+    #menu .tool .three {
+      position: relative;
+      width: 4px;
+      height: 40px;
+      background: #191919;
+      opacity: 1;
+      border-radius: 5px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+
+#logo {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  background: black;
+  height: 100px;
+  width: 400px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border: 3px solid #191919;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in; }
+  @media all and (min-width: 1500px) {
+    #logo {
+      left: 33%; } }
+  @media all and (min-width: 1200px) and (max-width: 1500px) {
+    #logo {
+      left: 28.5%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    #logo {
+      left: 24%; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    #logo {
+      left: 16%; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    #logo {
+      left: 10%; } }
+  @media all and (max-width: 575px) {
+    #logo {
+      left: 0%; } }
+  @media all and (min-width: 577px) {
+    #logo img {
+      position: relative;
+      top: 5px;
+      left: 5px;
+      height: 80px; } }
+  @media all and (max-width: 576px) {
+    #logo img {
+      display: none; } }
+  @media all and (min-width: 577px) {
+    #logo .name {
+      position: relative;
+      top: 25px;
+      left: 50px;
+      font-size: 2.2em;
+      font-family: 'Satisfy', cursive;
+      color: #fff; } }
+  @media all and (min-width: 355px) and (max-width: 576px) {
+    #logo .name {
+      position: relative;
+      top: 25px;
+      left: 10%;
+      font-size: 2.2em;
+      font-family: 'Satisfy', cursive;
+      color: #00ccff; } }
+  @media all and (max-width: 354px) {
+    #logo .name {
+      position: relative;
+      top: 30px;
+      left: 5%;
+      font-size: 1.5em;
+      font-family: 'Satisfy', cursive;
+      color: #00ccff; } }
+  #logo a:hover {
+    text-decoration: none; }
+
+.twoinone {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  height: 100px;
+  z-index: 99;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 55px;
+  border-top-right-radius: 55px;
+  top: 0px;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.4);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in; }
+  @media all and (min-width: 1500px) {
+    .twoinone {
+      width: 34%;
+      left: 33%; } }
+  @media all and (min-width: 1200px) and (max-width: 1500px) {
+    .twoinone {
+      width: 43%;
+      left: 28.5%; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .twoinone {
+      width: 52%;
+      left: 24%; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .twoinone {
+      width: 68%;
+      left: 16%; } }
+  @media all and (min-width: 576px) and (max-width: 767px) {
+    .twoinone {
+      width: 80%;
+      left: 10%; } }
+  @media all and (max-width: 575px) {
+    .twoinone {
+      width: 100%;
+      left: 0%; } }
+
+#menu_active {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in;
+  transform: rotate(360deg);
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background: #191919;
+  border: 3px solid #00ccff;
+  right: 10%; }
+  @media all and (min-width: 0px) and (max-width: 575px) {
+    #menu_active {
+      right: 0%; } }
+  #menu_active .tool {
+    color: white;
+    position: relative;
+    transform: rotate(90deg);
+    top: 62px;
+    left: 0px; }
+    #menu_active .tool .one {
+      position: relative;
+      width: 4px;
+      height: 40px;
+      margin-right: 5px;
+      border-radius: 5px;
+      left: 8px;
+      transform: rotate(45deg);
+      background: #00ccff;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+    #menu_active .tool .two {
+      width: 4px;
+      height: 40px;
+      margin-right: 5px;
+      border-radius: 5px;
+      transform: rotate(-45deg);
+      background: #00ccff;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+    #menu_active .tool .three {
+      position: relative;
+      width: 4px;
+      height: 40px;
+      background: #191919;
+      opacity: 1;
+      border-radius: 5px;
+      opacity: 0;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in; }
+
+#logo {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  background: black;
+  height: 100px;
+  width: 400px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border: 3px solid #191919;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in; }
+  @media all and (min-width: 577px) {
+    #logo img {
+      position: relative;
+      top: 5px;
+      left: 5px;
+      height: 80px; } }
+
+.twoinone {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  height: 100px;
+  z-index: 99;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 55px;
+  border-top-right-radius: 55px;
+  top: 0px;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.4);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in; }
+
+.twoinone_active {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  height: 100px;
+  left: 10%;
+  width: 80%;
+  z-index: 99;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 55px;
+  border-top-right-radius: 55px;
+  top: 0px;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.4);
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in; }
+  .twoinone_active #logo {
+    left: 10%; }
+  @media all and (min-width: 0px) and (max-width: 575px) {
+    .twoinone_active {
+      left: 0%;
+      width: 100%; }
+    .twoinone_active #logo {
+      left: 0%; } }
+
+/*# sourceMappingURL=nav.css.map */

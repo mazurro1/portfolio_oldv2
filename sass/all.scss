@@ -1,0 +1,235 @@
+#all {
+  position: relative;
+
+
+  animation-name: menu_left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+
+  .left {
+    position: relative;
+    overflow: hidden;
+
+
+    .other {
+      position: relative;
+      left: 0px;
+
+
+    }
+  }
+
+
+
+
+
+  .menu_right {
+    text-align: center;
+    position: fixed;
+    left: 100%;
+    height: 100vh;
+    width: 50%;
+    font-size: 1.5em;
+    z-index: 10;
+    border: 0px solid #fff;
+    background: rgba(0, 204, 255, 1);
+
+
+
+
+    @media all and (max-width: 768px) {
+      & {
+        width: 100%;
+
+      }
+    }
+
+    .icon_background {
+      margin-top: 150px;
+      padding-top: 40px;
+      margin-left: 20%;
+      margin-right: 20%;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 50px;
+      box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.8) inset;
+
+      @media all and (max-width: 768px) {
+        & {
+          margin-top: 150px;
+          padding-top: 40px;
+          margin-left: 0%;
+          margin-right: 0%;
+          background: rgba(0, 0, 0, 0.85);
+          border-radius: 10px;
+          box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.8) inset;
+        }
+      }
+
+      @media all and (min-width: 769px) and (max-width: 991px) {
+        & {
+          margin-top: 150px;
+          padding-top: 40px;
+          margin-left: 10%;
+          margin-right: 10%;
+          background: rgba(0, 0, 0, 0.85);
+          border-radius: 30px;
+          box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.8) inset;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+      background: rgba(0, 0, 0, 0.1);
+
+      border-top-left-radius: 10px;
+      box-shadow: 0px 0px 24px 5px rgba(0, 0, 0, 0.3) inset;
+
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: Ease-in-out;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+      }
+
+      &:active {
+        background: rgba(255, 255, 255, 1);
+        color: #000;
+      }
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#all_active {
+  position: relative;
+  left: -25%;
+  animation-name: menu_left_active;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+
+
+  .left {
+    position: relative;
+    overflow: hidden;
+
+
+    .other {
+      position: relative;
+      left: 0px;
+
+
+    }
+  }
+
+
+
+  .menu_right_active {
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    font-size: 1.5em;
+    z-index: 10;
+    border: 0px solid #fff;
+
+    background-color: rgba(0, 204, 255, 1);
+
+
+    left: 50%;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.7);
+
+    @media all and (max-width: 768px) {
+      & {
+        left: 0;
+        width: 100%;
+
+      }
+    }
+
+    .icon_background {
+      margin-top: 150px;
+      padding-top: 40px;
+
+
+
+      @media all and (max-width: 768px) {
+        & {
+          margin-top: 100px;
+          padding-top: 40px;
+          margin-left: 0%;
+          margin-right: 0%;
+
+        }
+      }
+
+      @media all and (min-width: 769px) and (max-width: 991px) {
+        & {
+          margin-top: 150px;
+          padding-top: 40px;
+          margin-left: 10%;
+          margin-right: 10%;
+
+
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+      background: rgba(0, 0, 0, 0.8);
+      margin-right: 5%;
+      margin-left: 5%;
+      border-radius: 10px;
+
+
+      border: 2px solid rgba(0, 0, 0, 0.2);
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: Ease-in-out;
+
+      @media all and (max-width: 768px) {
+        & {
+          margin-bottom: 30px;
+
+        }
+      }
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        border: 2px solid white;
+      }
+
+      &:active {
+        background: rgba(255, 255, 255, 1);
+        color: #000;
+      }
+    }
+  }
+
+
+
+
+}

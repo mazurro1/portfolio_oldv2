@@ -1,0 +1,52 @@
+// *--------- ABOUT_ME ---------*
+#about_me{
+	font-family: $font;
+  	filter: drop-shadow(0 0px 20px rgba(0, 0, 0, 0));
+  	background: #fff;
+  	.margin{
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-top: 50px;
+	}
+
+	p{
+  		padding-top: 13px;
+  		text-align: center;
+	}
+
+	@media all and (max-width: 991px){
+	.spacing{
+  		margin-top: 30px;
+		}
+	}
+
+	@media all and (max-width: 767px){
+	.spacing2{
+  		margin-top: 30px;
+		}
+	}
+
+	.icon{
+		background: #333333;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		box-shadow: $shadow_in;
+		font-size: 1.15em;
+		color: white;
+		height: 55px;
+  		text-align: center;
+	}
+
+	.icon img{
+		margin-top: 5px; 
+		margin-left: 5px;
+		margin-bottom: 5px;
+		max-width: 55px;
+		filter: drop-shadow(4px 0px 1px rgba(0, 0, 0, 1));
+
+	}
+
+	.icon p{
+  		margin: 0 auto;
+	}
+}

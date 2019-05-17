@@ -1,0 +1,274 @@
+#elements1{
+  position: relative;
+  left: 10px;
+
+  .first{
+    background: url(../img/facebook1.png) no-repeat; 
+    height: 50px;
+    width: 25px;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 50px;   
+    left: -15px;
+    display: block;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    img{
+      position: relative;
+      left: 15px;
+
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      }
+
+    .text{
+      position: relative;
+      bottom: 37px;
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      transition-duration: 0s;
+      
+      div{
+        color: transparent;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-duration: 0s;
+      }
+    }
+  }
+
+  .second{
+    background: url(../img/facebook2.png) no-repeat;
+    height: 50px;
+    bottom: 50px;
+    width: 35px;
+    padding-right: 5px;
+    position: relative;
+    margin: 0 auto;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+  }
+
+  &:hover .first{
+    transform: translate(-100px, 0px);
+    left: 0px;
+
+    img{
+      left: 110px;
+      transform: scale(10.5, 1);
+    }
+
+    .text{
+      transform: translate(90px, 0px); 
+
+      div{
+        color: #fff;
+        animation-name: tekst;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      }
+    }
+  }
+
+  &:hover .second{
+    transform: translate(100px, 0px);
+  }
+}
+
+
+
+
+
+
+
+
+
+#elements2{
+  position: relative;
+  left: 12px;
+
+  .first{
+    background: url(../img/messenger1.png) no-repeat; 
+    height: 50px;
+    width: 25px;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 74px;   
+    left: 0px;
+    display: block;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    img{
+      position: relative;
+      left: 22px;
+
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      }
+
+    .text{
+      position: relative;
+      bottom: 37px;
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      transition-duration: 0s;
+      
+      div{
+        color: transparent;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-duration: 0s;
+      }
+    }
+  }
+
+  .second{
+    background: url(../img/messenger2.png) no-repeat;
+    height: 50px;
+    bottom: 50px;
+    width: 35px;
+    position: relative;
+    margin: 0 auto;
+    left: 2px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+  }
+
+  &:hover .first{
+    transform: translate(-100px, 0px);
+    left: 0px;
+
+    img{
+      left: 120px;
+      transform: scale(29, 1);
+    }
+
+    .text{
+      transform: translate(90px, 0px); 
+
+      div{
+        color: #fff;
+        animation-name: tekst;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      }
+    }
+  }
+
+  &:hover .second{
+    transform: translate(100px, 0px);
+  }
+}
+
+
+
+#elements3{
+  position: relative;
+  left: 0px;
+
+  .first{
+    background: url(../img/linkedIn1.png) no-repeat; 
+    height: 50px;
+    width: 25px;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 50px;   
+    left: -10px;
+    display: block;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+    img{
+      position: relative;
+      left: 17px;
+
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      }
+
+    .text{
+      position: relative;
+      bottom: 37px;
+      left: 5px;
+
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+      transition-duration: 0s;
+      
+      div{
+        color: transparent;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-duration: 0s;
+      }
+    }
+  }
+
+  .second{
+    background: url(../img/linkedIn2.png) no-repeat;
+    height: 50px;
+    bottom: 50px;
+    width: 35px;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 12px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+  }
+
+  &:hover .first{
+    transform: translate(-100px, 0px);
+    left: 0px;
+
+    img{
+      left: 116px;
+      transform: scale(11.0, 1);
+    }
+
+    .text{
+      transform: translate(90px, 0px); 
+
+      div{
+        color: #fff;
+        animation-name: tekst;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      }
+    }
+  }
+
+  &:hover .second{
+    transform: translate(100px, 0px);
+  }
+}

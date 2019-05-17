@@ -1,0 +1,298 @@
+#portfolio {
+  filter: drop-shadow(0 0px 20px black);
+  background: #fff;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 50px; }
+  #portfolio .text {
+    margin-top: 10px;
+    font-size: 1.5em;
+    max-width: 350px;
+    background: #00ccff;
+    border: 5px solid white;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7) inset;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-top: 10px; }
+    #portfolio .text:nth-child(1) {
+      margin-top: 50px; }
+    #portfolio .text span {
+      text-shadow: 2px 2px 5px #000; }
+  #portfolio .arrow {
+    background: url(../img/arrow-down.png) 12px 0px no-repeat;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    animation-name: arrow;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier;
+    animation-iteration-count: infinite; }
+  #portfolio .www {
+    width: 100%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px; }
+  #portfolio .graphics {
+    width: 100%; }
+
+#content {
+  width: 475px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; }
+  #content:nth-child(1) {
+    background: url(../img/portfolio1.png) center no-repeat; }
+  #content:nth-child(2) {
+    background: url(../img/portfolio2.png) center no-repeat; }
+  #content:nth-child(3) {
+    background: url(../img/portfolio3.png) center no-repeat; }
+  #content:nth-child(4) {
+    background: url(../img/portfolio4.png) center no-repeat; }
+  #content:nth-child(5) {
+    background: url(../img/portfolio5.png) center no-repeat; }
+  #content:nth-child(6) {
+    background: url(../img/portfolio6.png) center no-repeat; }
+  #content:nth-child(7) {
+    background: url(../img/portfolio7.png) center no-repeat; }
+  #content:nth-child(8) {
+    background: url(../img/portfolio8.png) center no-repeat; }
+  #content:nth-child(9) {
+    background: url(../img/portfolio9.png) center no-repeat; }
+  #content:nth-child(10) {
+    background: url(../img/portfolio10.png) center no-repeat; }
+  #content:nth-child(11) {
+    background: url(../img/portfolio11.png) center no-repeat; }
+  #content:nth-child(12) {
+    background: url(../img/portfolio12.png) center no-repeat; }
+  #content:nth-child(13) {
+    background: url(../img/portfolio13.png) center no-repeat; }
+  @media all and (max-width: 500px) {
+    #content {
+      width: 300px;
+      border: 2px solid #fff; } }
+  #content .firstP {
+    position: relative;
+    font-size: 2em;
+    top: -450px;
+    color: white;
+    margin-top: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content .lastP {
+    position: relative;
+    font-size: 1.0em;
+    top: -450px;
+    color: #b6b6b6;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content:hover p {
+    top: -280px; }
+  #content a {
+    position: relative;
+    top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background: #00ccff;
+    color: white;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content:hover a {
+    top: -170px; }
+  #content .dark {
+    width: 475px;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    background: #000;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+    @media all and (max-width: 500px) {
+      #content .dark {
+        width: 300px; } }
+  #content:hover .dark {
+    opacity: 0.9; }
+
+#content2 {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; }
+  #content2:nth-child(1) {
+    background: url(../img/graphics1.png) center no-repeat; }
+  #content2:nth-child(2) {
+    background: url(../img/graphics2.png) center no-repeat; }
+  #content2:nth-child(3) {
+    background: url(../img/graphics3.png) center no-repeat; }
+  #content2:nth-child(4) {
+    background: url(../img/graphics4.png) center no-repeat; }
+  #content2:nth-child(5) {
+    background: url(../img/graphics5.png) center no-repeat; }
+  #content2:nth-child(6) {
+    background: url(../img/graphics6.png) center no-repeat; }
+  #content2:nth-child(10) {
+    background: url(../img/graphics10.png) center no-repeat; }
+  @media all and (max-width: 500px) {
+    #content2 {
+      width: 300px;
+      border: 2px solid #fff; } }
+  #content2 .dark {
+    width: 475px;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    background: #000;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+    @media all and (max-width: 500px) {
+      #content2 .dark {
+        width: 300px; } }
+  #content2:hover .dark {
+    opacity: 0.9; }
+  #content2 .firstP {
+    position: relative;
+    font-size: 2em;
+    top: -450px;
+    color: white;
+    margin-top: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content2 .lastP {
+    position: relative;
+    font-size: 1.0em;
+    top: -450px;
+    color: #b6b6b6;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content2:hover p {
+    top: -250px; }
+  #content2 a {
+    position: relative;
+    top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background: #00ccff;
+    color: white;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content2:hover a {
+    top: -170px; }
+
+#content3 {
+  width: 475px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; }
+  #content3:nth-child(7) {
+    background: url(../img/graphics7.png) center no-repeat; }
+  #content3:nth-child(8) {
+    background: url(../img/graphics8.png) center no-repeat; }
+  #content3:nth-child(9) {
+    background: url(../img/graphics9.png) center no-repeat; }
+  #content3:nth-child(11) {
+    background: url(../img/graphics11.png) center no-repeat; }
+  #content3:nth-child(12) {
+    background: url(../img/graphics12.png) center no-repeat; }
+  @media all and (max-width: 500px) {
+    #content3 {
+      width: 300px;
+      border: 2px solid #fff; } }
+  #content3 .firstP {
+    position: relative;
+    font-size: 2em;
+    top: -450px;
+    color: white;
+    margin-top: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content3 .lastP {
+    position: relative;
+    font-size: 1.0em;
+    top: -450px;
+    color: #b6b6b6;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content3:hover p {
+    top: -280px; }
+  #content3 a {
+    position: relative;
+    top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background: #00ccff;
+    color: white;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+  #content3:hover a {
+    top: -170px; }
+  #content3 .dark {
+    width: 475px;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    background: #000;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; }
+    @media all and (max-width: 500px) {
+      #content3 .dark {
+        width: 300px; } }
+  #content3:hover .dark {
+    opacity: 0.9; }
+
+@keyframes arrow {
+  0% {
+    top: 0px; }
+  50% {
+    top: 20px; }
+  100% {
+    top: 0px; } }
+
+/*# sourceMappingURL=portfolio.css.map */

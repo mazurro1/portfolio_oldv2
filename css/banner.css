@@ -1,0 +1,122 @@
+#banner {
+  background: url(../img/img1_2.png) no-repeat;
+  background-size: cover;
+  height: 780px;
+  background-position: top;
+  background-attachment: fixed;
+  box-shadow: 0px -5px 30px 2px rgba(0, 0, 0, 0.7) inset;
+  position: relative; }
+  #banner .content {
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    animation-name: hellow;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.58, -0.355, 0.695, 1.575);
+    animation-iteration-count: 1; }
+    #banner .content .color {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      filter: grayscale(100%);
+      animation-delay: 0s;
+      animation-name: color;
+      animation-duration: 10s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite; }
+      #banner .content .color .text1 {
+        color: white;
+        padding: 40px;
+        overflow: hidden; }
+        #banner .content .color .text1 h1 {
+          filter: drop-shadow(0px 0px 5px black);
+          opacity: 1;
+          animation-delay: 0s;
+          animation-name: text;
+          animation-duration: 2s;
+          animation-timing-function: ease-in;
+          animation-iteration-count: 1;
+          position: relative;
+          top: 5px;
+          font-size: 4em;
+          margin-top: 30vh; }
+  @media all and (min-width: 767px) and (max-width: 991px) {
+    #banner .menu {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      position: absolute;
+      top: 700px;
+      width: 720px;
+      transition-property: top;
+      transition-duration: 1s;
+      transition-timing-function: Ease-in-out; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    #banner .menu {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      position: absolute;
+      top: 700px;
+      width: 950px;
+      transition-property: top;
+      transition-duration: 1s;
+      transition-timing-function: Ease-in-out; } }
+  @media all and (min-width: 1200px) {
+    #banner .menu {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      position: absolute;
+      top: 700px;
+      width: 1150px;
+      transition-property: top;
+      transition-duration: 1s;
+      transition-timing-function: Ease-in-out; } }
+  #banner .menu:hover {
+    top: 600px; }
+  #banner .menu .slider {
+    color: rgba(255, 255, 255, 0.7);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    box-shadow: 0px -6px 7px 2px rgba(0, 0, 0, 0.7) inset;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 20px; }
+    #banner .menu .slider .arrowdown {
+      background: url(../img/arrow-bottom.png) no-repeat;
+      background-size: 30px 20px;
+      background-position: center;
+      height: 20px;
+      width: 100%;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: Ease-in-out; }
+    #banner .menu .slider .shift {
+      animation-name: arrow-bottom;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite; }
+  #banner .menu:hover .slider .arrowdown {
+    transform: rotate(180deg); }
+  #banner .menu .elements {
+    padding-top: 20px;
+    right: 0px; }
+  #banner .icons_phone {
+    position: absolute;
+    top: 630px;
+    height: 150px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.8) inset; }
+    #banner .icons_phone a {
+      margin: 0 auto;
+      margin-top: 45px; }
+
+/*# sourceMappingURL=banner.css.map */

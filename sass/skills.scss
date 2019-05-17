@@ -1,0 +1,77 @@
+#skills {
+  background: url(../img/img1_1.png);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  width: 100%;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.6) inset;
+
+  .container {
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.85);
+
+    .images {
+      text-align: center;
+
+      img {
+        position: relative;
+        padding: 20px 50px;
+        max-height: 110px;
+        opacity: 0.7;
+        color: #000;
+        -webkit-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+
+        -webkit-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s;
+
+        -webkit-transition-timing-function: cubic-bezier;
+        -o-transition-timing-function: cubic-bezier;
+        transition-timing-function: cubic-bezier;
+
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        filter: grayscale(100%);
+
+        @media all and (max-width: 768px) {
+          & {
+            max-height: 90px;
+
+          }
+        }
+
+        &:hover {
+          transform: scale(1.5);
+          opacity: 1;
+
+          -webkit-filter: grayscale(0%);
+          -moz-filter: grayscale(0%);
+          -o-filter: grayscale(0%);
+          -ms-filter: grayscale(0%);
+          filter: grayscale(0%);
+        }
+      }
+    }
+
+    .text {
+      margin-top: 10px;
+      opacity: 0.8;
+      text-align: center;
+
+      span {
+        margin: 5px;
+        display: block;
+        color: #fff;
+      }
+    }
+  }
+}

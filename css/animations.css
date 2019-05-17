@@ -1,0 +1,92 @@
+.letter_white {
+  margin: 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  padding: 10px 40px;
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.8;
+  min-width: 220px;
+  max-width: 350px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier; }
+  .letter_white:hover {
+    background: #fff;
+    color: #000; }
+
+.letter_black {
+  margin: 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  padding: 10px 40px;
+  font-size: 40px;
+  color: #000;
+  opacity: 0.8;
+  min-width: 220px;
+  max-width: 350px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier; }
+  .letter_black:hover {
+    background: #000;
+    color: #fff; }
+
+@keyframes hellow {
+  0% {
+    top: -1000px;
+    opacity: 0; }
+  100% {
+    top: 0px;
+    opacity: 1; } }
+@keyframes text {
+  0% {
+    top: 5px;
+    transform: scale(1), rotate(0deg); }
+  50% {
+    transform: scale(0.5), rotate(180deg); }
+  100% {
+    top: 5px;
+    transform: scale(1), rotate(0deg); } }
+@keyframes arrow-bottom {
+  0% {
+    transform: translate(0px, -10px); }
+  50% {
+    transform: translate(0px, 0px); }
+  100% {
+    transform: translate(0px, -10px); } }
+@keyframes arrow-hover {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(180deg); } }
+@keyframes rotate-right {
+  0% {
+    left: 100%;
+    transform: rotateX(1deg) rotateY(-90deg) rotateZ(0deg); }
+  100% {
+    left: 40%;
+    transform: rotateX(1deg) rotateY(0deg) rotateZ(0deg); } }
+@keyframes tekst {
+  0% {
+    transform: scale(1) rotate(0deg);
+    color: transparent; }
+  50% {
+    color: transparent;
+    transform: scale(0.5) rotate(0deg); }
+  100% {
+    transform: scale(1) rotate(0deg); } }
+@keyframes menu_left {
+  0% {
+    left: -25%; }
+  100% {
+    left: 0%; } }
+@keyframes menu_left_active {
+  0% {
+    left: 0%; }
+  100% {
+    left: -25%; } }
+
+/*# sourceMappingURL=animations.css.map */

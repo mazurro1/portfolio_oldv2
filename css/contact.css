@@ -1,0 +1,42 @@
+#contact {
+  background: url(../img/img1_4.png) no-repeat;
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 50px; }
+  #contact form {
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 50px;
+    color: #fff; }
+    #contact form ::-webkit-input-placeholder {
+      font-size: 13px !important; }
+    #contact form :-moz-placeholder {
+      /* Firefox 18- */
+      font-size: 13px !important; }
+    #contact form ::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: 13px !important; }
+    #contact form .button-contact {
+      background: #00ccff;
+      border: none;
+      color: black;
+      font-weight: bold;
+      height: 50px;
+      width: 100px;
+      right: 1px;
+      position: relative;
+      border-radius: 5px;
+      float: right;
+      font-size: 1.3em;
+      box-shadow: 0px 0px 15px 5px black;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: ease; }
+      #contact form .button-contact:hover {
+        transform: scale(1.2); }
+      #contact form .button-contact:active {
+        color: white; }
+
+/*# sourceMappingURL=contact.css.map */

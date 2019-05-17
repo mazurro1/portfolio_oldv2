@@ -1,0 +1,12 @@
+#footer {
+  height: 20px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 0.8em;
+  background: #000; }
+  #footer span {
+    opacity: 0.5;
+    color: #fff; }
+
+/*# sourceMappingURL=footer.css.map */
